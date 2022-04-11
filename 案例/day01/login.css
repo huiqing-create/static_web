@@ -1,0 +1,61 @@
+*{
+    user-select: none;/*none使元素及其子元素的文本不可选中。*/
+    /*
+    无法选中，整体感更强
+     */
+}
+body{
+    background: url("wallpaper.jpg") no-repeat; /*no-repeat 设置显示一个背景图片没有重复只有一次*/
+    background-size: cover;
+    background-attachment: fixed;/*这个关键属性值表示背景相对于视口固定。即使一个元素拥有滚动机制，背景也不会随着元素的内容滚动。*/
+}
+.login{
+    position: absolute;/*position 属性被指定为从下面的值列表中选择的单个关键字。*/
+    top: 50%;/*top的效果取决于元素的position属性：当position设置为absolute或fixed时，top属性指定了定位元素上外边距边界与其包含块上边界之间的偏移。*/
+    margin-top: -200px;/*设置一个元素的上部边距：*/
+    left: 50%;
+    margin-left: -200px;
+    /*上面这几行代码是absolute居中的一种方法*/
+    background-color: whitesmoke;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    text-align: center;
+    padding:5px;/*对login form这个框框里进行填充*/
+    box-sizing: border-box;/*元素的总高度和宽度包含内边距和边框(padding 与 border) */
+}
+p{
+    font-size: 42px;
+    font-weight: 600;
+}
+input{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-bottom: 10px;
+    border:none;
+    border-bottom: 2px solid silver;
+    /*下面的会覆盖上面的步伐*/
+    outline: none;
+    font-size: 22px;
+}
+.btn{
+    background-color: #59c2c5;
+    width:38%;
+    height: 48px;
+    border-radius:8px;
+    margin-top:40px;
+    font-size: 28px;
+    font-weight: 600;
+    color:white;
+}
+.btn:hover{/* 当鼠标移动到连接上 :hover 选择器样式链接到该超链接。*/
+    background-color: #59c2a0;
+}
+
+
+
+
+
+
+
+
